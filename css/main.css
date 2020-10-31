@@ -1,0 +1,9 @@
+#container {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box {
+    padding: 4.5%;
+    border: 0.5px solid black;
+  }
