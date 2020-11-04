@@ -1,6 +1,7 @@
 body {
     height: 100vh;
     margin: 0;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
 }
 #container {
     justify-content: center;
@@ -11,15 +12,18 @@ body {
 .box {
     padding: 4.5%;
     border: 0.5px solid black;
+    background-size: cover;
+    background-position: center;
+    background-color:  white;
   }
 header {
       text-align: center;
-      padding: 4vmin;
+      font-size: 5vmin;
+      padding: 1vmin;
 }
 #resetBtn {
     height: 6vmin;
     width: 35vmin;
-    margin-top: 4vmin;
 }
 #btnContainer {
     text-align: center;
@@ -28,4 +32,9 @@ header {
 button#playerX , button#playerO {
     height: 6vmin;
     width: 25vmin;
+}
+
+#msg {
+    font-size: 3.5vmin;
+    text-align: center;
 }
